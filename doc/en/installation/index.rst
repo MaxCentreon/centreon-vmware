@@ -243,8 +243,8 @@ Install the client and dependency:
   # cp -R apps/vmware/* /usr/lib/nagios/plugins/apps/vmware/
   # cp centreon_plugins.pl /usr/lib/nagios/plugins/
 
-Centreon-vmware Installation - centos/rhel 6 systems
-====================================================
+Centreon-vmware Installation - centos/rhel 6 systems et centos/rhel 7 systems
+=============================================================================
 
 SDK Perl VMWare Installation
 ````````````````````````````
@@ -287,12 +287,12 @@ centreon-vmware Installation with rpm
 Install the connector:
 ::
 
-  # yum install ces-plugins-Virtualization-VMWare-daemon
+  # yum install centreon-plugin-Virtualization-Vmware2-Connector-Plugin.noarch
 
-Install the client:
+Install the Daemon:
 ::
 
-  # yum install ces-plugins-Virtualization-VMWare-client
+  # yum install centreon-plugin-Virtualization-VMWare-daemon
   
 centreon-vmware Installation with source
 ````````````````````````````````````````
@@ -338,3 +338,5 @@ Install the client and dependency:
   # mkdir -p /usr/lib/nagios/plugins/apps/vmware/
   # cp -R apps/vmware/* /usr/lib/nagios/plugins/apps/vmware/
   # cp centreon_plugins.pl /usr/lib/nagios/plugins/
+  
+ 
